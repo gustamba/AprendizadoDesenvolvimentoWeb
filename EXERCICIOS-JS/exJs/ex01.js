@@ -1,11 +1,11 @@
 let soma, subtra, mult, divi = 0
 
 function contas(a, b) {
-    soma = a + b
-    subtra = a - b
-    mult = a * b
-    divi = a / b
-    return console.log(soma, subtra, mult, divi)
+    console.log(`Os numeros escolhidos são: ${a} e ${b}`)
+    console.log(`Soma: ${a + b}`)
+    console.log(`Subtração: ${a - b}`)
+    console.log(`multiplicação: ${a * b}`)
+    console.log(`Divisão: ${a / b}`)
 }
 
 contas(2, 7)
