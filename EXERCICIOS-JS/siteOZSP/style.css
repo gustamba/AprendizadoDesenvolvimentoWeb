@@ -3,12 +3,16 @@ body {
     background-color: rgb(240, 240, 240);
     text-align: center;
     padding-top: 80px;
+    padding: auto;
+    margin: 0px;
+    border: 0px;
 }
 
 .logo {
-    height: 70px;
-    padding: 10px;
-    margin-right: 100px;
+    height: 50px;
+    padding: 7px;
+    margin-right: 20px;
+    margin-top: 10px;
     filter: brightness(0) invert(1);
 }
 
@@ -17,6 +21,8 @@ body {
     justify-content: center;
     position: fixed;
     top: 0;
+    background: #2148b5;
+    width: 100%;
 }
 
 .menu {
@@ -26,7 +32,7 @@ body {
     border-radius: 90px;
     margin: 20px;
     width: 500px;
-    height: 50px;
+    height: 40px;
 }
 
 .menu > input {
@@ -50,7 +56,9 @@ body {
 .capa {
     width: 100%;
     margin-top: -90px;
-    height: auto;
+    height: 500px;
+    object-fit: cover;
+
 }
 
 footer {
@@ -62,14 +70,16 @@ footer {
 }
 
 .bloco1 {
-    background-color: grey;
-    width: 200px;
-    padding: 10px;
-    margin: 20px;
+    background-color: #2148B5;
+    width: 180px;
+    padding: 18px;
+    margin: 30px;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
+    color: white;
 }
 
-.meio1{
+.meio1 {
     display: flex;
     justify-content: center;
     margin-top: -200px;
