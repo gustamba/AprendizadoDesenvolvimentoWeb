@@ -25,6 +25,7 @@
     "gulp-webserver": "0.9.1"
   },
   "dependencies": {
-    "gulp-cli": "^3.0.0"
+    "gulp-cli": "^3.0.0",
+    "sass": "^1.87.0"
   }
 }
